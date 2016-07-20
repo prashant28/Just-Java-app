@@ -1,3 +1,75 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Title for the application. [CAHR LIMIT =12] -->
     <string name="app_name">Just Java</string>
+
+    <!-- Hint text displayed in the empty field for the user's name. [CHAR LIMIT = 30]-->
+    <string name="name">Name</string>
+
+    <!-- Header for the list of toppings [CHAR LIMIT = 20]-->
+    <string name="toppings">Toppings</string>
+
+    <!-- Number of cups of coffee ordered -->
+    <string name="quantity">Quantity</string>
+
+    <!-- Whipped Cream topping for the order. [CHAR LIMIT = 20] -->
+    <string name="whipped_cream">Whipped Cream</string>
+
+    <!-- Chocolate topping for the order. [CHAR LIMIT = 20] -->
+    <string name="chocolate">Chocolate</string>
+
+    <!-- decrement quantity button [CHAR LIMIT = NONE] -->
+    <string name="decrement_button">-</string>
+
+    <!-- Initial value of quantity [CHAR LIMIT = NONE] -->
+    <string name="initial_value_quantity">2</string>
+
+    <!-- increment quantity button [CHAR LIMIT = 20] -->
+    <string name="increment_button">+</string>
+
+    <!-- Submit order button [CHAR LIMIT = 20] -->
+    <string name="order">order</string>
+
+
+    <!-- Name for the order summary. It should be in the format of "Name: Alex" where alex is the of user.
+    [CHAR LIMIT == NONE] -->
+    <string name="order_summary_name">Name: <xliff:g example="Alex" id="name">%s</xliff:g></string>
+
+    <!-- Whipped cream for the order summary. It should be in the format of "Add Whipped Cream? true" or
+       "Add Whipped Cream? false". [CAHR LIMIT = NONE]
+     -->
+    <string name="order_summary_whipped_cream">Add Whipped Cream? <xliff:g example="true" id="addWhippedCream">%b</xliff:g></string>
+
+    <!-- Whipped cream for the order summary. It should be in the format of "Add Whipped Cream? true" or
+      "Add Whipped Cream? false". [CAHR LIMIT = NONE]
+    -->
+    <string name="order_summary_chocolate">Add Chocolate? <xliff:g example="true" id="addChocolate">%b</xliff:g></string>
+
+    <!--
+     Quantity of coffee cups for the order summary. It will be shown in the format of
+     "Quantity: 2", where 2 is the number of cups ordered. [CHAR LIMIT=NONE]
+    -->
+    <string name="order_summary_quantity">Quantity: <xliff:g example="2" id="quantity">%d</xliff:g></string>
+
+    <!-- Total price for the order summary. It should be in the format of "Total: $10" where $10 is the price
+    [CHAR LIMIT = NONE]
+    -->
+    <string name="total">Total: <xliff:g example="10" id="price">%s</xliff:g></string>
+
+    <!-- Thank you note for ordering the coffee. [CHAR LIMIT = NONE]
+    -->
+    <string name="thank_you">Thank You</string>
+
+    <!--
+         Subject line for the order summary email. It will be in the format of
+         "Just Java order for Amy" where Amy is the user's name. [CHAR LIMIT=NONE]
+       -->
+    <string name="order_summary_email_subject">Java order for <xliff:g example="Alex" id="name">%s</xliff:g></string>
+
+    <!-- error message if user tries to order more than 100 cups of coffee [CHAR LIMIT = NONE] -->
+    <string name="more_than_limit_coffee">You can not have more than 100 coffees</string>
+
+    <!-- error message if user tries to order less than 1 cups of coffee [CHAR LIMIT = NONE] -->
+    <string name="less_than_limit_coffee">You can not have less than 1 coffee</string>
 </resources>
+

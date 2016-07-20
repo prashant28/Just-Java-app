@@ -3,9 +3,23 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
+        <!-- Color of the application-->
         <item name="colorPrimary">@color/colorPrimary</item>
+
+        <!-- Color of the status bar -->
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <!-- Color of the checkbox -->
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style for all the header in the app -->
+    <style name="HeaderTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">15sp</item>
     </style>
 
 </resources>
